@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Калькулятор</title>
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+<body>
+<div class="theme-button">
+    <button id="themeToggle">☀️</button>
+</div>
+    <div class="container">
+        <h1>Онлайн калькулятор</h1>
+        <p>Введите первое число</p>
+        <input type="number" id="position_1"  placeholder="Число номер 1" required>
+        <p>Введите операцию</p>
+        <input type="string" id="znak" placeholder="Знак" required>
+        <p>Введите второе число</p>
+        <input type="number" id="position_2" placeholder="Число номер 2" required>
+        <button onclick="calculate()">Вычислить</button>
+        <div class="result" id="result"></div>
+    </div>
+</body>
+<script src="../js/main.js"></script>
+</html>
